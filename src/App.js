@@ -4,6 +4,8 @@ import StateExample from './components/useStateHook/StateExample';
 import Form from './components/useStateHook/Form'
 import TaskFunction from './components/tasks/TaskFunction';
 import Timer from './components/useEffectHook/Timer';
+import Forecast from './components/useEffectHook/WeatherApp/Forecast';
+
 
 function App() {
   return (
@@ -12,6 +14,9 @@ function App() {
       <StateExample />
       <Form />
       <TaskFunction />
+
+      <Forecast />
+
     </div>
   );
 }
